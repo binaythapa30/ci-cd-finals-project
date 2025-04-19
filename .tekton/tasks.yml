@@ -10,3 +10,6 @@ spec:
         #!/bin/sh
         echo "Cleaning up temporary files..."
         rm -rf /workspace/temp-files
+        echo " Running unit tests with nose..."
+        pip install nose
+        nosetests
